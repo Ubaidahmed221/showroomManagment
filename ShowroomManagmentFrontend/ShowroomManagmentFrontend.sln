@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowroomManagmentFrontend", "ShowroomManagmentFrontend\ShowroomManagmentFrontend.csproj", "{064695C0-24F1-48B3-9B18-66A6CCF5A62D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowroomManagmentAPI", "ShowroomManagmentAPI\ShowroomManagmentAPI.csproj", "{13525B2A-6DC3-434A-A37E-E116F7C05155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064695C0-24F1-48B3-9B18-66A6CCF5A62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064695C0-24F1-48B3-9B18-66A6CCF5A62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064695C0-24F1-48B3-9B18-66A6CCF5A62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064695C0-24F1-48B3-9B18-66A6CCF5A62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13525B2A-6DC3-434A-A37E-E116F7C05155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13525B2A-6DC3-434A-A37E-E116F7C05155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13525B2A-6DC3-434A-A37E-E116F7C05155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13525B2A-6DC3-434A-A37E-E116F7C05155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63B92EDE-EC12-40C4-A428-BD239892B51B}
+	EndGlobalSection
+EndGlobal
