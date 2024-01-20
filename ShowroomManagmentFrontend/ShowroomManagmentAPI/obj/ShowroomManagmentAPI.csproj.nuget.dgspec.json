@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj": {}
+    "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj": {}
   },
   "projects": {
-    "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj": {
+    "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj",
+        "projectUniqueName": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj",
         "projectName": "ShowroomManagmentAPI",
-        "projectPath": "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj",
+        "projectPath": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\ShowroomManagmentAPI.csproj",
         "packagesPath": "C:\\Users\\icon\\.nuget\\packages\\",
-        "outputPath": "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\obj\\",
+        "outputPath": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\icon\\AppData\\Roaming\\NuGet\\NuGet.Config",

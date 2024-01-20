@@ -6485,11 +6485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend.csproj",
+      "projectUniqueName": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend.csproj",
       "projectName": "ShowroomManagmentFrontend",
-      "projectPath": "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend.csproj",
+      "projectPath": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend.csproj",
       "packagesPath": "C:\\Users\\icon\\.nuget\\packages\\",
-      "outputPath": "F:\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\obj\\",
+      "outputPath": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\icon\\AppData\\Roaming\\NuGet\\NuGet.Config",

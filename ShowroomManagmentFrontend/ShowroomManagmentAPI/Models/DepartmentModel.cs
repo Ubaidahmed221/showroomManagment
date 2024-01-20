@@ -10,7 +10,9 @@ using Microsoft.EntityFrameworkCore;
 namespace ShowroomManagmentAPI.Models
 {
 
-    public class DepartmentModel : IDepartment
+
+
+    public class DepartmentModel : IDepartment  
     {
         private readonly ApplicationDbContext db_context;
 
@@ -18,6 +20,29 @@ namespace ShowroomManagmentAPI.Models
         {
             this.db_context = dbContext;
             
+        }
+
+        public async Task<ResponseDTO> AddDepartment(DepartmentDTO departmentDTO)
+        {
+            var response = new ResponseDTO();
+            try
+            {
+                var department = new Department()
+                {
+                    Name = departmentDTO.Name,
+                    Description = departmentDTO.Description
+                };
+
+              await  db_context.Departments.AddAsync(department);
+                await db_context.SaveChangesAsync();
+                response.Response = "Department Created Successfully";
+
+            }
+            catch (Exception ex)
+            {
+                response.ErrorMessage = ex.Message;
+            }
+            return response;
         }
 
         public async Task<ResponseDTO> GetDepartment()
