@@ -34,5 +34,25 @@ namespace ShowroomManagmentAPI.Controllers
             return JsonConvert.SerializeObject(await service.AddDepartment(departmentDTO));
 
         }
+
+        [HttpGet("DeleteDepartment/{id}")]
+        public async Task<string> DeleteDepartment(int id)
+        {
+            return JsonConvert.SerializeObject(await service.DeleteDepartment(id));
+        }
+
+        [HttpGet("GetDepartmentById/{id}")]
+        public async Task<string> GetDepartmentById(int id)
+        {
+            return JsonConvert.SerializeObject(await service.GetDepartmentById(id));
+
+        }
+
+        [HttpPost("UpdateDepartment")]
+        public async Task<string> UpdateDepartment(DepartmentDTO departmentDTO)
+        {
+            return JsonConvert.SerializeObject(await service.UpdateDepartment(departmentDTO));
+
+        }
     }
 }

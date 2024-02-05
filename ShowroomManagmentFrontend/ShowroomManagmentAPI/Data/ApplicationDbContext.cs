@@ -12,5 +12,7 @@ namespace ShowroomManagmentAPI.Data
         }
 
         public DbSet<Department> Departments { get; set; }
+
+        public DbSet<Empolyee> Empolyees { get; set; }
     }
 }

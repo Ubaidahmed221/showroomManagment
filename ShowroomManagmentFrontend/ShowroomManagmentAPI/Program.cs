@@ -21,6 +21,8 @@ x.UseSqlServer(builder.Configuration.GetConnectionString("default")));
 
 //---------------------------- Model Dependencies -------------------------------------------
 builder.Services.AddScoped<IDepartment, DepartmentModel>();
+builder.Services.AddScoped<IEmpolyee, EmpolyeeModel>();
+
 
 var app = builder.Build();
 
@@ -31,7 +33,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseCors(MyAllowSpecificOrigins);
-
+app.UseStaticFiles();
 app.UseAuthorization();
 
 app.MapControllers();

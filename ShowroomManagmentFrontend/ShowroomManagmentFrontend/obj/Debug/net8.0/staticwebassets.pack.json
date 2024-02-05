@@ -17,6 +17,22 @@
       "PackagePath": "staticwebassets\\ProjectFiles\\Department\\Index.js"
     },
     {
+      "Id": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\wwwroot\\ProjectFiles\\Department\\Update.js",
+      "PackagePath": "staticwebassets\\ProjectFiles\\Department\\Update.js"
+    },
+    {
+      "Id": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\wwwroot\\ProjectFiles\\Empolyee\\Create.js",
+      "PackagePath": "staticwebassets\\ProjectFiles\\Empolyee\\Create.js"
+    },
+    {
+      "Id": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\wwwroot\\ProjectFiles\\Empolyee\\Index.js",
+      "PackagePath": "staticwebassets\\ProjectFiles\\Empolyee\\Index.js"
+    },
+    {
+      "Id": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\wwwroot\\ProjectFiles\\Empolyee\\Update.js",
+      "PackagePath": "staticwebassets\\ProjectFiles\\Empolyee\\Update.js"
+    },
+    {
       "Id": "E:\\showroom\\showroomManagment\\ShowroomManagmentFrontend\\ShowroomManagmentFrontend\\wwwroot\\ProjectFiles\\Utilize\\ApiUrls.js",
       "PackagePath": "staticwebassets\\ProjectFiles\\Utilize\\ApiUrls.js"
     },
