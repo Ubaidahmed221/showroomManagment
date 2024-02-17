@@ -1,4 +1,7 @@
 ﻿
+$(document).ready(function () {
+    LoadDepartment();
+});
 function validationControls() {
     var isEmpty = false;
     var name = $('#txtName').val();
@@ -59,3 +62,27 @@ $('#btnSubmit').on('click', function () {
     }
 
 })
+function LoadDepartment() {
+
+    $.ajax({
+        url: APIURLs.department_GetDepartments,
+        type: 'GET',
+        data: null,
+        success: function (resp) {
+            var data = JSON.parse(resp);
+
+            // Clear existing options in the select element
+            $('.form-control.select2bs4').empty();
+
+            // Iterate over the response data and append options to the select element
+            for (let item of data.Response) {
+                $('.form-control.select2bs4').append(`<option value="${item.Id}">${item.Name}</option>`);
+            };
+
+            $('.form-control.select2bs4').select2();
+        }
+
+    });
+
+}
+

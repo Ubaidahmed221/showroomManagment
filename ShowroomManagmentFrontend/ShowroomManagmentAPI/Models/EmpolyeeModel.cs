@@ -12,7 +12,6 @@ namespace ShowroomManagmentAPI.Models
         public EmpolyeeModel(ApplicationDbContext dbContext, IWebHostEnvironment webHostEnvironment)
         {
             this.dbContext = dbContext;
-
             this.webHostEnvironment = webHostEnvironment;
 
         }
@@ -21,21 +20,12 @@ namespace ShowroomManagmentAPI.Models
             var response = new ResponseDTO();
             try
             {
-                string path = null;
+                string path = "";
                 if (empolyeeDTO.ProfileImage != null)
                 {
                     var filename = empolyeeDTO.ProfileImage.FileName;
-
-                    // Use an absolute path based on web root
-                    string uploadsDirectory = Path.Combine(webHostEnvironment.WebRootPath, "Uploads");
-                     path = Path.Combine(uploadsDirectory, filename);
-
-                    // Ensure the directory exists
-                    if (!Directory.Exists(uploadsDirectory))
-                    {
-                        Directory.CreateDirectory(uploadsDirectory);
-                    }
-
+                   path = Path.Combine("Uploads", webHostEnvironment.WebRootPath+ filename);
+                     
                     using (Stream stream = new FileStream(path, FileMode.Create))
                     {
                         await empolyeeDTO.ProfileImage.CopyToAsync(stream);

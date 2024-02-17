@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShowroomManagmentAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+566640853ef6b9f6341b49372abe0f16814bd1f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0559973e91788513567c66e2371f6d80cc85f76")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShowroomManagmentAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShowroomManagmentAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
